@@ -10,9 +10,6 @@ s.source           = { :git => "https://github.com/mseemann/healthkit-sample-gen
 
 s.platform     = :ios, '9.0'
 s.requires_arc = true
-
-require 'pry'
-binding.pry
 s.source_files = 'Pod/Classes/**/*'
 s.resource_bundles = {
 'HealthKitSampleGenerator' => ['Pod/Assets/*.png']
